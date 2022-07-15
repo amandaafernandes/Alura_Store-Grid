@@ -1,0 +1,35 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+
+    /* As unidades vh e vw significam viewport, sendo a primeira para altura e a segunda para largura. Isso significa que elas utilizam o tamanho total da viewport (tamanho do nosso dispositivo), ou seja, uma altura de 100vh corresponde a 100% da página total, do nosso corpo do documento (body) */
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    grid-area: cabecalho;
+    padding: 0 2rem;
+}
+ 
+.conteudo {
+    grid-area: conteudo;
+    padding: 0 2rem;
+
+}
+
+.rodape {
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
+}
