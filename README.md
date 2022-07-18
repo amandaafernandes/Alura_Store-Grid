@@ -25,7 +25,8 @@
 
 ## 📁 Acesso a pagina
 
-:link: <a> https://amandaafernandes.github.io/Alura_Store-Grid/ Link do Store Grid (pagina estética). </a>
+<p>Link de acesso a pagina (pagina estética):</p>
+:link: <a href="https://amandaafernandes.github.io/Alura_Store-Grid/"> Store Grid</a> 
 
 ## :computer: Ferramentas e Tecnologias utilizadas:
 <li>Javascript;</li> 
